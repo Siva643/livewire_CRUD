@@ -40,7 +40,8 @@ class Posts extends Component
     }
 
     public function update(){
-        $validated_data = $this->validate([
+        $validated_data = $this->validate
+        ([
             'title'=>'required',
             'body'=>'required'
         ]);

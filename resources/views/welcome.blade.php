@@ -7,7 +7,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Livewire CRUD</h1>
+        <h1 class="mt-4 text-danger text-center">Laravel Livewire CRUD</h1>
         @livewire('posts')
     </div>
     @livewireScripts()
